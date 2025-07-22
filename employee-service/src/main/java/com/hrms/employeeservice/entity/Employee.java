@@ -48,6 +48,10 @@ public class Employee {
 		this.salary = salary;
 	}
 	
-	
-
+	public Employee(String name, String email, String department, double salary) {
+		this.name = name;
+		this.email = email;
+		this.department = department;
+		this.salary = salary;
+	}
 }
