@@ -17,6 +17,9 @@ public class Employee {
 	private String department;
 	private double salary;
 	
+	public Employee() {
+    }
+	
 	public Long getId() {
 		return id;
 	}
